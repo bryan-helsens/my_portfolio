@@ -1,6 +1,6 @@
 import { Container, Box, Heading, Image, Text, Button, List, ListItem, Link, Icon, useColorModeValue } from "@chakra-ui/react"
 import CTA from "../components/header/CTA"
-import Layout from '../components/Layouts/Article'
+import Layout from '../components/layouts/Article'
 import { ScrollDown } from '../components/ItemsAside'
 import SocialMedia from '../components/SocialMedia'
 import Section from "../components/Section"
