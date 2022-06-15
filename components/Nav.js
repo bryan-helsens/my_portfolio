@@ -56,9 +56,9 @@ const LinkItem = ({ href, path, children }) => {
   return (
     <NextLink href={href}>
         <Link
-            bg={active ? 'black' : undefined}
-            color={active ? 'white' : undefined}
-            className={active ? 'active' : undefined}
+            bg={active ? 'black' : ''}
+            color={active ? 'white' : ''}
+            className={active ? 'active' : ''}
         >
             {children}
         </Link>
@@ -77,6 +77,7 @@ const Nav = props => {
             alignItems="center"
             flexGrow={1}
             mt={{base: 4, nmd: 0}}
+            visibility={["hidden", "visible"]}
         >
             <LinkItem href="" path={path}><IoHomeOutline /></LinkItem>
             <LinkItem href="#about" path={path}><IoPersonOutline /></LinkItem>

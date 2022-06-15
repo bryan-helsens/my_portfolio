@@ -4,11 +4,12 @@ import Layout from '../components/layouts/Article'
 import { ScrollDown } from '../components/ItemsAside'
 import SocialMedia from '../components/SocialMedia'
 import Section from "../components/Section"
+import About from '../components/about/About'
 
 export default function Home() {
   return (
     <Layout>
-      <Container maxW='550px'>
+      <Container maxW='700px'>
         <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
           Hello, I&apos;m a <Text as="strong">full-stack developer</Text> and <Text as="strong">ethical hacker</Text> based in Belgium!
         </Box>
@@ -35,11 +36,14 @@ export default function Home() {
           <CTA />
         </Box>
 
-        <ScrollDown href="#contact" color='teal.500'>Scroll Down</ScrollDown>
+        <ScrollDown visibility={["hidden", "visible"]} href="#contact" color='teal.500'>Scroll Down</ScrollDown>
         <SocialMedia />
 
         <Section id="about" delay={0.1}>
+          <Heading as="h5" variant="h5-title">Get To Know</Heading>
           <Heading as="h3" variant="section-title">About</Heading>
+
+          <About />
         </Section>
  
       </Container>

@@ -10,7 +10,7 @@ import {
 
 const SocialMedia = () => {
   return (
-    <Socials>
+    <Socials visibility={["hidden", "visible"]} >
         <ListItem>
             <Link href="https://github.com/bryan-helsens/" target="_blank">
                 <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoGithub} />}></Button>
