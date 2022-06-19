@@ -8,6 +8,7 @@ import About from '../components/about/About'
 import { BioSection, BioYear } from '../components/about/Bio'
 import Paragraph from "../components/Paragraph"
 import Experience from '../components/experience/Experience'
+import Portfolio from '../components/portfolio/Portfolio'
 
 export default function Home() {
   return (
@@ -86,6 +87,13 @@ export default function Home() {
           <Heading as="h3" variant="section-title">My Experience</Heading>
 
           <Experience />
+        </Section>
+
+        <Section id="experience" delay={0.3}>
+          <Heading as="h5" variant="h5-title">My Recent Work</Heading>
+          <Heading as="h3" variant="section-title">Portfolio</Heading>
+
+          <Portfolio />
         </Section>
 
  

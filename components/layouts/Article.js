@@ -23,7 +23,6 @@ const Layout = ({children, title}) => (
                 </Head>
             )}
                 {children}
-            
         </>
     </motion.article>
 )
