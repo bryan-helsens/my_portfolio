@@ -16,6 +16,6 @@ export const Socials = styled(List)`
     align-items: center;
     gap: 0.8rem;
     position: absolute;
-    left: 0;
+    left: -5%;
     bottom: 2rem;
 `

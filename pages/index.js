@@ -5,6 +5,9 @@ import { ScrollDown } from '../components/ItemsAside'
 import SocialMedia from '../components/SocialMedia'
 import Section from "../components/Section"
 import About from '../components/about/About'
+import { BioSection, BioYear } from '../components/about/Bio'
+import Paragraph from "../components/Paragraph"
+import Experience from '../components/experience/Experience'
 
 export default function Home() {
   return (
@@ -40,11 +43,51 @@ export default function Home() {
         <SocialMedia />
 
         <Section id="about" delay={0.1}>
-          <Heading as="h5" variant="h5-title">Get To Know</Heading>
-          <Heading as="h3" variant="section-title">About</Heading>
+          <Section delay={0.1}>
+            <Heading as="h5" variant="h5-title">Get To Know</Heading>
+            <Heading as="h3" variant="section-title">About Me</Heading>
 
-          <About />
+            <About />
+          </Section>
+
+          <Section delay={0.2}>
+            <Heading as="h3" variant="section-title">Bio</Heading>
+            <BioSection>
+              <BioYear>1999</BioYear>
+              Born in Bruges, Belgium.
+            </BioSection>
+
+            <BioSection>
+              <BioYear>2020</BioYear>
+              TI Internship at Silicon NV.
+              <br />
+              Setting up a security routine for SME environments.
+            </BioSection>
+
+            <BioSection>
+              <BioYear>2020</BioYear>
+              Completed the Bachelor program Computer Science (Compter & Cybercrime Professional) in the university Howest at Bruges.
+            </BioSection>
+
+            <BioSection>
+              <BioYear>2021</BioYear>
+              Completed the Bachelor program Computer Science (Software Engineer) in the university Howest at Bruges.
+            </BioSection>
+          </Section>
+
+          <Section delay={0.3}>
+            <Heading as="h3" variant="section-title">I ♥</Heading>
+            <Paragraph>Music, Walking, Nature, Sport, Coding, Football, NFL, Coffee</Paragraph>
+          </Section>
         </Section>
+       
+        <Section id="experience" delay={0.2}>
+          <Heading as="h5" variant="h5-title">What Skills I Have</Heading>
+          <Heading as="h3" variant="section-title">My Experience</Heading>
+
+          <Experience />
+        </Section>
+
  
       </Container>
 

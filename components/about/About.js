@@ -1,8 +1,30 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { Container, Box, SimpleGrid, Image, Text, Grid } from '@chakra-ui/react'
 import Paragraph from '../Paragraph'
 
 const About = () => {
+    const [age, setAge] = useState(0)
+
+    useEffect(() => {
+        calculateAge()
+    }, [])
+
+    const calculateAge = () => {
+        let today = new Date();
+        let birthDate = new Date("1999");
+        console.log(birthDate);
+        let age = today.getFullYear() - birthDate.getFullYear();
+        let m = today.getMonth() - birthDate.getMonth();
+        if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) 
+        {
+            age--;
+        }
+
+        console.log(age);
+        setAge(age)
+    }
+
+
   return (
         <SimpleGrid columns={[1,2,2]} gap={6}>
            
@@ -17,11 +39,9 @@ const About = () => {
                 <Image w={["50%", "75%"]} borderColor="teal" borderWidth={2} borderStyle="solid" display="inline-block" borderRadius="3xl" src="/images/me.jpg" alt="Bryan Helsens" title="Bryan Helsens" />
             </Box>
 
-            <Box
-                ml={["0%", "-40%", "-40%"]}
-            >
+            <Box ml={["0%", "-40%", "-40%"]}>
                 <Paragraph>
-                    My name is <Text as="strong">Bryan Helsens</Text>, <Text as="strong">23 years</Text> old.
+                    My name is <Text as="strong">Bryan Helsens</Text>, <Text as="strong">{age} years</Text> old.
                     <br />
                     Graduated from the university Howest of Bruges, where I followed and successfully completed two bachelor program of <Text as="strong">Computer Science</Text> (<Text as="strong">Computer & Cybercrime Professional and Software Engineer</Text>).
 
