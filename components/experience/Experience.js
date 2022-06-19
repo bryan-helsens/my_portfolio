@@ -11,6 +11,7 @@ const Experience = () => {
             borderColor='white'
             p="5"
             width="100%"
+            _hover={{ bg: "teal.900" }}
         >
             <Heading as="h6"variant="skill-title">Frontend Development</Heading>
 
@@ -84,6 +85,7 @@ const Experience = () => {
             borderColor='white'
             p="5"
             width="100%"
+            _hover={{ bg: "teal.900" }}
         >
             <Heading as="h6"variant="skill-title">Backend Development</Heading>
 
@@ -130,6 +132,7 @@ const Experience = () => {
             borderColor='white'
             p="5"
             width="100%"
+            _hover={{ bg: "teal.900" }}
         >
             <Heading as="h6"variant="skill-title">Hosting/Cloud/Services</Heading>
 
@@ -174,6 +177,7 @@ const Experience = () => {
             borderColor='white'
             p="5"
             width="100%"
+            _hover={{ bg: "teal.900" }}
         >
             <Heading as="h6"variant="skill-title">OS/Server</Heading>
 
@@ -219,6 +223,7 @@ const Experience = () => {
             borderColor='white'
             p="5"
             width="100%"
+            _hover={{ bg: "teal.900" }}
         >
             <Heading as="h6"variant="skill-title">Hacking/Security</Heading>
 
@@ -285,6 +290,7 @@ const Experience = () => {
             borderColor='white'
             p="5"
             width="100%"
+            _hover={{ bg: "teal.900" }}
         >
             <Heading as="h6"variant="skill-title">Networking</Heading>
 
