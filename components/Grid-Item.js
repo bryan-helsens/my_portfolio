@@ -15,7 +15,7 @@ export const PortfolioGridItem = ({ children, id, title, thumbnail, tags, demo, 
     >
         <NextLink href={`/project/${id}`}>
             <LinkBox cursor="pointer">
-                <Image src={thumbnail} alt={title} title={title} className="grid-item-thumbnail" width={"100%"} height={"100%"} placeholder="blur" layout="responsive" objectFit="contain" />
+                <Image src={thumbnail} alt={title} title={title} className="grid-item-thumbnail" width={"100%"} height={"75%"} placeholder="blur" layout="responsive" objectFit="contain" />
                 <LinkOverlay href={`/project/${id}`}>
                     <Text mt={2} fontSize={20} fontWeight="bold" color="#ff3559">{title}</Text>
                 </LinkOverlay>
