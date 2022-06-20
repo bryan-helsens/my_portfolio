@@ -1,5 +1,5 @@
 import React from 'react'
-import { SimpleGrid, Box } from '@chakra-ui/react'
+import { SimpleGrid, Box, Text } from '@chakra-ui/react'
 import Section from '../Section'
 import { PortfolioGridItem } from '../Grid-Item'
 import Layout from '../layouts/Article'
@@ -57,7 +57,7 @@ const Portfolio = () => {
             p="5"
             bg='teal.700'
         >
-            <PortfolioGridItem id="webshop_phones" title="Webshop Phones" alt="Webshop Phones" thumbnail={thumbWebshopPhones} git={""} demo={"https://bryanhelsens.be"} tags="#NodeJS, #Laravel, #JavaScript, #CSS, #E-commerce">Webshop where you can by phones (Final project for school) <br /> <p style={{color : 'red'}}><GoAlert />Don&apos;t enter bank credentials <GoAlert /></p></PortfolioGridItem>
+            <PortfolioGridItem id="webshop_phones" title="Webshop Phones" alt="Webshop Phones" thumbnail={thumbWebshopPhones} git={""} demo={"https://bryanhelsens.be"} tags="#NodeJS, #Laravel, #JavaScript, #CSS, #E-commerce">Webshop where you can by phones (Final project for school) <GoAlert color="red" />Don&apos;t enter bank credentials <GoAlert color="red" /></PortfolioGridItem>
         </Box>
 
         <Box
@@ -67,7 +67,7 @@ const Portfolio = () => {
             bg='teal.700'
         >
             <PortfolioGridItem id="my_beer glass_collection" title="My Beer glass Collection" alt="My Beer glass Collection" thumbnail={thumbBeerCollection} git={""} demo={"https://beercollectionbryan.herokuapp.com/"} tags="#Laravel, #PHP, #Heroku">My Beer Glass Collection</PortfolioGridItem>
-        </Box>
+        </Box>       
     </SimpleGrid> 
   )
 }

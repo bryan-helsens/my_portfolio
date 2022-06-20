@@ -2,7 +2,6 @@ import React from 'react'
 import { Box, Text, LinkBox, LinkOverlay, ButtonGroup, Link, Button } from '@chakra-ui/react'
 import NextLink from 'next/link'
 import Image from 'next/image'
-import { Global } from '@emotion/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 
 export const PortfolioGridItem = ({ children, id, title, thumbnail, tags, demo, git }) => {
