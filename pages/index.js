@@ -9,6 +9,7 @@ import { BioSection, BioYear } from '../components/about/Bio'
 import Paragraph from "../components/Paragraph"
 import Experience from '../components/experience/Experience'
 import Portfolio from '../components/portfolio/Portfolio'
+import Contact from '../components/contact/Contact'
 
 export default function Home() {
   return (
@@ -95,6 +96,14 @@ export default function Home() {
 
           <Portfolio />
         </Section>
+
+        <Section id="experience" delay={0.4}>
+          <Heading as="h5" variant="h5-title">Get In Touch</Heading>
+          <Heading as="h3" variant="section-title">Contact Me</Heading>
+
+          <Contact />
+        </Section>
+
 
  
       </Container>
