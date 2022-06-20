@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Box, SimpleGrid, Image, Text, Grid } from '@chakra-ui/react'
+import { Box, SimpleGrid, Image, Text } from '@chakra-ui/react'
 import Paragraph from '../Paragraph'
 
 const About = () => {
