@@ -3,7 +3,7 @@ import styled from '@emotion/styled'
 
 export const ScrollDown = styled(Link)`
     position: absolute;
-    right: -2.3rem;
+    right: -5rem;
     bottom: 5rem;
     transform: rotate(90deg);
     font-weight: 300;

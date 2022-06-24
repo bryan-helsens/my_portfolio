@@ -10,11 +10,12 @@ import Paragraph from "../components/Paragraph"
 import Experience from '../components/experience/Experience'
 import Portfolio from '../components/portfolio/Portfolio'
 import Contact from '../components/contact/Contact'
+import Footer from '../components/footer/Footer'
 
 export default function Home() {
   return (
     <Layout>
-      <Container maxW='700px'>
+      <Container maxW='700px' pb={10}>
         <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
           Hello, I&apos;m a <Text as="strong">full-stack developer</Text> and <Text as="strong">ethical hacker</Text> based in Belgium!
         </Box>
@@ -44,7 +45,7 @@ export default function Home() {
         <ScrollDown visibility={["hidden", "visible"]} href="#contact" color='teal.500'>Scroll Down</ScrollDown>
         <SocialMedia />
 
-        <Section id="about" delay={0.1}>
+        <Section id="about" className="about" delay={0.1}>
           <Section delay={0.1}>
             <Heading as="h5" variant="h5-title">Get To Know</Heading>
             <Heading as="h3" variant="section-title">About Me</Heading>
@@ -107,6 +108,8 @@ export default function Home() {
 
  
       </Container>
+
+      <Footer />
 
     </Layout>
   )

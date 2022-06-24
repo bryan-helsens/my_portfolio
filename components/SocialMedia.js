@@ -13,25 +13,25 @@ const SocialMedia = () => {
     <Socials visibility={["hidden", "visible"]} >
         <ListItem>
             <Link href="https://github.com/bryan-helsens/" target="_blank">
-                <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoGithub} />}></Button>
+                <Button variant="ghost" colorScheme="teal"><IoLogoGithub /></Button>
             </Link>
         </ListItem>
 
         <ListItem>
             <Link href="https://www.facebook.com/bryan.helsens.3/" target="_blank">
-                <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoFacebook} />}></Button>
+                <Button variant="ghost" colorScheme="teal"><IoLogoFacebook /></Button>
             </Link>
         </ListItem>
 
         <ListItem>
             <Link href="https://twitter.com/bryan_helsens/" target="_blank">
-                <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoTwitter} />}></Button>
+                <Button variant="ghost" colorScheme="teal"><IoLogoTwitter /></Button>
             </Link>
         </ListItem>
 
         <ListItem>
             <Link href="https://www.instagram.com/bryan_helsens/" target="_blank">
-                <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoInstagram} />}></Button>
+                <Button variant="ghost" colorScheme="teal"><IoLogoInstagram /></Button>
             </Link>
         </ListItem>
     </Socials>
