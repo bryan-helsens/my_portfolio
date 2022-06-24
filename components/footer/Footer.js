@@ -10,7 +10,7 @@ import {
 const Footer = () => {
   return (
     <Box
-        bg={'#4db5ff'}
+        bg={'#0263a8'}
         color={'black'}
         pt={5}
         width={"100%"}
@@ -25,7 +25,7 @@ const Footer = () => {
             justify={'center'}
             align={'center'}
         >
-            <Heading as="h2" color="teal.800" >BRYAN HELSENS</Heading>
+            <Heading as="h2" color="teal.200" >BRYAN HELSENS</Heading>
             <Stack direction={{base: 'column', md:"row" }} align={"center"} spacing={6}>
                 <Link href={'/'} color="black">Home</Link>
                 <Link href={'#about'} color="black">About</Link>
@@ -49,19 +49,19 @@ const Footer = () => {
                 <Stack direction={'row'} gap={6}>
 
                         <Link href="https://github.com/bryan-helsens/" target="_blank">
-                            <Button variant="ghost" colorScheme="teal.900" color="white" bg="black"><IoLogoGithub /></Button>
+                            <Button variant="ghost" colorScheme="teal" color="white" bg="black"><IoLogoGithub /></Button>
                         </Link>
  
                         <Link href="https://www.facebook.com/bryan.helsens.3/" target="_blank">
-                            <Button variant="ghost" colorScheme="teal.900" color="white" bg="black"><IoLogoFacebook /></Button>
+                            <Button variant="ghost" colorScheme="teal" color="white" bg="black"><IoLogoFacebook /></Button>
                         </Link>
 
                         <Link href="https://twitter.com/bryan_helsens/" target="_blank">
-                            <Button variant="ghost" colorScheme="teal.900" color="white" bg="black"><IoLogoTwitter /></Button>
+                            <Button variant="ghost" colorScheme="teal" color="white" bg="black"><IoLogoTwitter /></Button>
                         </Link>
       
                         <Link href="https://www.instagram.com/bryan_helsens/" target="_blank">
-                            <Button variant="ghost" colorScheme="teal.900" color="white" bg="black"><IoLogoInstagram /></Button>
+                            <Button variant="ghost" colorScheme="teal" color="white" bg="black"><IoLogoInstagram /></Button>
                         </Link>
 
                 </Stack>

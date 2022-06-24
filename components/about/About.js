@@ -43,7 +43,7 @@ const About = () => {
                 <Paragraph>
                     My name is <Text as="strong">Bryan Helsens</Text>, <Text as="strong">{age} years</Text> old.
                     <br />
-                    Graduated from the university Howest of Bruges, where I followed and successfully completed two bachelor program of <Text as="strong">Computer Science</Text> (<Text as="strong">Computer & Cybercrime Professional and Software Engineer</Text>).
+                    I graduated at Howest, where I successfully completed two bachelor programs of <Text as="strong">Computer Science</Text> (<Text as="strong">Computer & Cybercrime Professional and Software Engineer</Text>).
 
                     <br />
                     <br />

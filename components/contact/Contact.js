@@ -59,7 +59,7 @@ const Contact = () => {
                     <RiMessengerLine size={25} />
                     <Text fontSize="md">Messenger</Text>
                     <Text fontSize="xs">Bryan Helsens</Text>
-                    <Link href="https://m.me/bryan.helsens.3" isExternal>
+                    <Link href="https://m.me/bryan_helsens.3" isExternal>
                         <Button colorScheme="pink.300" variant='ghost' mt={1}>Send a message</Button>
                     </Link>
                 </Box>

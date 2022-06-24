@@ -69,12 +69,12 @@ export default function Home() {
 
             <BioSection>
               <BioYear>2020</BioYear>
-              Completed the Bachelor program Computer Science (Compter & Cybercrime Professional) in the university Howest at Bruges.
+              Completed the Bachelor program Computer Science (Compter & Cybercrime Professional) at Howest.
             </BioSection>
 
             <BioSection>
               <BioYear>2021</BioYear>
-              Completed the Bachelor program Computer Science (Software Engineer) in the university Howest at Bruges.
+              Completed the Bachelor program Computer Science (Software Engineer) at Howest.
             </BioSection>
           </Section>
 
