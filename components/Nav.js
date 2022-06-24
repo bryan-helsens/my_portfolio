@@ -1,17 +1,14 @@
 import React from 'react'
 import NextLink from 'next/link'
 import {
-    Container,
-    Box,
     Link,
     Stack,
-    useColorModeValue
 } from '@chakra-ui/react'
 import {
     IoHomeOutline,
     IoPersonOutline,
 } from 'react-icons/io5'
-import { RiServiceLine } from 'react-icons/ri'
+import { FaTasks } from 'react-icons/fa'
 import { BiMessageSquareDetail, BiBook } from 'react-icons/bi'
 import styled from '@emotion/styled'
 
@@ -82,7 +79,7 @@ const Nav = props => {
             <LinkItem href="" path={path}><IoHomeOutline /></LinkItem>
             <LinkItem href="#about" path={path}><IoPersonOutline /></LinkItem>
             <LinkItem href="#experience" path={path}><BiBook /></LinkItem>
-            <LinkItem href="#services" path={path}><RiServiceLine /></LinkItem>
+            <LinkItem href="#portfolio" path={path}><FaTasks /></LinkItem>
             <LinkItem href="#contact" path={path}><BiMessageSquareDetail /></LinkItem>
         </NavList>
   )

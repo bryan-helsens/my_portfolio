@@ -83,6 +83,7 @@ export default function Home() {
             <Paragraph>Music, Walking, Nature, Sport, Coding, Football, NFL, Coffee</Paragraph>
           </Section>
         </Section>
+        
        
         <Section id="experience" delay={0.2}>
           <Heading as="h5" variant="h5-title">What Skills I Have</Heading>
@@ -91,20 +92,19 @@ export default function Home() {
           <Experience />
         </Section>
 
-        <Section id="experience" delay={0.3}>
+        <Section id="portfolio" delay={0.3}>
           <Heading as="h5" variant="h5-title">My Recent Work</Heading>
           <Heading as="h3" variant="section-title">Portfolio</Heading>
 
           <Portfolio />
         </Section>
 
-        <Section id="experience" delay={0.4}>
+        <Section id="contact" delay={0.4}>
           <Heading as="h5" variant="h5-title">Get In Touch</Heading>
           <Heading as="h3" variant="section-title">Contact Me</Heading>
 
           <Contact />
         </Section>
-
 
  
       </Container>
