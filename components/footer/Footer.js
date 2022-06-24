@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Container, Heading, Stack, Link, Text, Button } from '@chakra-ui/react'
+import { Box, Container, Heading, Stack, Text, Button, Link } from '@chakra-ui/react'
 import {
     IoLogoTwitter,
     IoLogoFacebook,
@@ -27,7 +27,7 @@ const Footer = () => {
         >
             <Heading as="h2" color="teal.800" >BRYAN HELSENS</Heading>
             <Stack direction={{base: 'column', md:"row" }} align={"center"} spacing={6}>
-                <Link href={''} color="black">Home</Link>
+                <Link href={'/'} color="black">Home</Link>
                 <Link href={'#about'} color="black">About</Link>
                 <Link href={'#experience'} color="black">Experience</Link>
                 <Link href={'#portfolio'} color="black">Portfolio</Link>

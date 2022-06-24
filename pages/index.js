@@ -45,7 +45,7 @@ export default function Home() {
         <ScrollDown visibility={["hidden", "visible"]} href="#contact" color='teal.500'>Scroll Down</ScrollDown>
         <SocialMedia />
 
-        <Section id="about" className="about" delay={0.1}>
+        <Section id="about" delay={0.1}>
           <Section delay={0.1}>
             <Heading as="h5" variant="h5-title">Get To Know</Heading>
             <Heading as="h3" variant="section-title">About Me</Heading>
