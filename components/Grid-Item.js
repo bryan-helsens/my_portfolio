@@ -53,3 +53,22 @@ export const PortfolioGridItem = ({ children, id, title, thumbnail, tags, demo, 
     </Box>
     )
 }
+
+export const EventGridItem = ({ children, id, title, thumbnail, tags }) => (
+    <Box
+        w="100%"
+        align="center"
+    >
+        <NextLink href={`/event/${id}`}>
+            <LinkBox cursor="pointer">
+                <Image src={thumbnail} alt={title} title={title} className="grid-item-thumbnail" width={"100%"} height={"80%"} placeholder="blur" layout="responsive" objectFit="contain" />
+                <LinkOverlay href={`/event/${id}`}>
+                    <Text mt={2} height={12} mb={4} fontSize={20}>
+                        {children}
+                    </Text>
+                </LinkOverlay>
+                <Text fontSize={10} color={"gray"}>{tags}</Text>
+            </LinkBox>
+        </NextLink>
+    </Box>
+)

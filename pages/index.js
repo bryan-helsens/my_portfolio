@@ -15,6 +15,7 @@ import Footer from '../components/footer/Footer'
 export default function Home() {
   return (
     <Layout>
+    
       <Container maxW='700px' pb={10}>
         <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
           Hello, I&apos;m a <Text as="strong">full-stack developer</Text> and <Text as="strong">ethical hacker</Text> based in Belgium!
