@@ -1,0 +1,15 @@
+{ "Events" : 
+    [ 
+        {
+            "id": "Talent_IT",
+            "name": "Talen IT",
+            "locatie": "Brugge",
+            "tijd": "1u 30",
+            "datum": "Dec 5, 2019",
+            "text": "<Text as='strong' color='teal'>Wat is Talent IT</Text><br />Talent IT is een bedrijft dat andere bedrijven helpt met het zoeken naar de juiste IT-expertise.\\Zo biedt Talent IT aan bedrijven een tijdelijke ondersteuning van freelancers, vaste werknemers of totaaloplossingen voor een bedrijf om hun probleem op te lossen. <br /><br />Zij kwamen ons vandaag een sessie geven over java, hierbij vertelde zei ons dat Java-developer een beroep is die heel veel wordt gevraagd om applicaties te schrijven voor bedrijven. We werden ook verrast met een live demo waarbij een java-developer een programma had geschreven, dat automatisch een like en een reactie achterliet op elke foto, die Howest op hun Facebook had gezet. Daarna krijgen we nog een sessie die ging over Agile en waterfall. Hierbij vertelde de spreker ons dat veel bedrijven denken dat ze met Agile werken, maar ze eigenlijk de waterfall techniek toepassen. <br /><br /><Text as='strong' color='teal'>Agile techniek</Text><br />Hierbij weten de werknemers die aan een project werken dat de omstandigheden tijdens een project kan veranderen en zei weten hierop in te spelen en zorgen ervoor dat het eindresultaat niet in gevaar komt. <br /><br /><Text as='strong' color='teal'>Waterfall techniek</Text><br />Dit is een projectmanagement benadering waarbij een project in verschillende fasen worden voltooid en stap voor stap verplaatst wordt naar het uiteindelijke release voor de consumenten. <br /><br />Het grootste verschil tussen Agile en Waterfall is dat bij waterfall, eenmaal je naar de volgende fase gaat kan je niet meer terugkeren naar de vorige fase. Dit heb je niet bij Agile, Agile herhaalt zich constant tot het project afgelopen is. Voor het ontwikkelen van applicaties vertelde hij ons dat het handig is om altijd feedback te vragen aan je klant en zo veel mogelijk je klant te betrekken bij het ontwikkelen van een applicatie. Omdat je klant veel van gedacht kan veranderen. Zo vraagt hij vandaag een blauwe banner op zijn web applicatie en volgende week een rode banner. <br /><br />Ik vond de sessie zelf niet zo heel aantrekkelijk en leerrijk. Het meeste van wat de spreker kwam zeggen hadden wij al in de les gezien. Voor mij was dit eigenlijk een heropfrissing van Agile en Waterfall. Ik kan begrijpen dat deze sessies voor een bedrijf heel handig kan zijn, maar voor mij had deze sessie eigenlijk niet gehoeven en was dit puur om reclame voor zichzelf te maken.",
+            "imagePath": "/images/events/conferentie/Talent_IT.png",
+            "url": "https://www.talent-it.be/"
+
+        }
+    ]
+}

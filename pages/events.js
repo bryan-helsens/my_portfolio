@@ -25,8 +25,8 @@ const events = () => {
   return (
     <Layout>
         <Container>
-            <Heading as="h3" fontSize={20} mb={4}>Events</Heading>
-            <Text as="h4" fontSize={15} mb={0}>These are events in which i participated</Text>
+            <Heading as="h1" fontSize={30} mb={4}>Events</Heading>
+            <Text as="h4" color={"teal"} fontSize={15} mb={0}>These are events in which i participated</Text>
             <Text as="h4" fontSize={15} mb={4}>Conference/Seminar - CTF/Hackathons - Howest projects</Text>
         
             <Section delay={0.2}>
