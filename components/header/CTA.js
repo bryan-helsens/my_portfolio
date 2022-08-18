@@ -14,8 +14,12 @@ const CTA = () => {
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal" variant='outline'>Download CV</Button>
         </Link>
 
+        <Link href="https://cv-bryan-helsens.netlify.app/" isExternal>
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">Watch CV</Button>
+        </Link>
+
         <Link href="/#contact">
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">Let&apos;s Talk</Button>
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal" variant='outline'>Let&apos;s Talk</Button>
         </Link>
     </ButtonGroup>
   )
