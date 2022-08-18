@@ -9,7 +9,7 @@ import IC4 from '../public/images/events/conferentie/IC4.jpg'
 
 
 import BruCON_2019 from '../public/images/events/ctf/brucon.png'
-import DeloitteChristmasCTF from '../public/images/events/ctf/Hackazon.png'
+import DeloitteChristmasCTF from '../public/images/events/ctf/hackazon.png'
 import NeverLAN from '../public/images/events/ctf/NeverLAN.jpg'
 import CSCB from '../public/images/events/ctf/CSCB.jpg'
 
