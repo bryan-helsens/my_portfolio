@@ -1,18 +1,57 @@
+import { Box, SimpleGrid, Text } from '@chakra-ui/react'
 import React from 'react'
-import { SimpleGrid, Box, Text } from '@chakra-ui/react'
-import Section from '../Section'
+import { GoAlert } from 'react-icons/go'
 import { PortfolioGridItem } from '../Grid-Item'
 import Layout from '../layouts/Article'
-import { GoAlert } from 'react-icons/go'
+import Section from '../Section'
 
-import thumbYellowRose from '../../public/images/portfolio/Yellow_rose.jpg'
-import thumbPokemon from '../../public/images/portfolio/Pokemon.jpg'
-import thumbMysteryBox from '../../public/images/portfolio/Mystery_box.jpg'
-import thumbDailyRewards from '../../public/images/portfolio/Daily_rewards.jpg'
-import thumbWebshopPhones from '../../public/images/portfolio/Webshop.jpg'
 import thumbBeerCollection from '../../public/images/portfolio/Beer_glass_collection.jpg'
+import thumbCoffee from '../../public/images/portfolio/Coffee.png'
+import thumbDailyRewards from '../../public/images/portfolio/Daily_rewards.jpg'
+import thumbLambo from '../../public/images/portfolio/Lambo.png'
+import thumbMysteryBox from '../../public/images/portfolio/Mystery_box.jpg'
+import thumbPokemon from '../../public/images/portfolio/Pokemon.jpg'
+import thumbWebshopPhones from '../../public/images/portfolio/Webshop.jpg'
+import thumbYellowRose from '../../public/images/portfolio/Yellow_rose.jpg'
 
 const data = [
+    {
+        id: "coffee_website",
+        image: thumbCoffee,
+        title: "Coffee website",
+        description: "A default coffee shop website",
+        git: "https://github.com/bryan-helsens/coffee_website",
+        demo: "https://coffee-website-bryan.netlify.app",
+        tags: "#Javascript, #CSS"
+    },
+    {
+        id: "lambo_website",
+        image: thumbLambo,
+        title: "Lambo website",
+        description: "A default lambo website (with animation)",
+        git: "https://github.com/bryan-helsens/lambo",
+        demo: "https://lambo-bryan.netlify.app/",
+        tags: "#Javascript, #CSS, #Animation"
+    },
+    {
+        id: "webshop_phones",
+        image: thumbWebshopPhones,
+        title: "Webshop Phones",
+        description: `Webshop where you can by phones (Final project for school)`,
+        warning: "<GoAlert color='red' />Don&apos;t enter bank credentials <GoAlert color='red' />",
+        git: "",
+        demo: "https://bryanhelsens.be",
+        tags: "#NodeJS, #Laravel, #JavaScript, #CSS, #E-commerce"
+    },
+    {
+        id: "my_beer_glass_collection",
+        image: thumbBeerCollection,
+        title: "My Beer glass Collection",
+        description: "My Beer Glass Collection",
+        git: "",
+        demo: "https://beercollectionbryan.herokuapp.com",
+        tags: "#Laravel, #PHP, #Heroku"
+    },
     {
         id: "yellow_rose",
         image: thumbYellowRose,
@@ -48,25 +87,6 @@ const data = [
         git: "",
         demo: "https://vibrant-hawking-8634cc.netlify.app",
         tags: "#CSS, #Animation"
-    },
-    {
-        id: "webshop_phones",
-        image: thumbWebshopPhones,
-        title: "Webshop Phones",
-        description: `Webshop where you can by phones (Final project for school)`,
-        warning: "<GoAlert color='red' />Don&apos;t enter bank credentials <GoAlert color='red' />",
-        git: "",
-        demo: "https://bryanhelsens.be",
-        tags: "#NodeJS, #Laravel, #JavaScript, #CSS, #E-commerce"
-    },
-    {
-        id: "my_beer_glass_collection",
-        image: thumbBeerCollection,
-        title: "My Beer glass Collection",
-        description: "My Beer Glass Collection",
-        git: "",
-        demo: "https://beercollectionbryan.herokuapp.com",
-        tags: "#Laravel, #PHP, #Heroku"
     },
 
 ]
